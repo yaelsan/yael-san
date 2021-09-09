@@ -1,0 +1,411 @@
+
+/* css encabezado index */
+.image-menu{
+    position: relative;
+    width: 100%; 
+    overflow:auto;
+}
+.text-menu {
+    position: absolute;
+    bottom: 640px;
+    left: 320px;
+    color: #0e0d0dd3;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding: 0px;
+    margin:0px;
+    list-style: none;
+    display: flex;
+}
+.text-menu2{
+    position: absolute;
+    bottom: 640px;
+    left: 800px;
+    color: #0e0d0dd3;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding: 0px;
+    margin:0px;
+    list-style: none;
+    display: flex;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+.text-menu3{
+    position: absolute;
+    bottom: 640px;
+    left: 540px;
+    color: #0e0d0dd3;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding: 0px;
+    margin:0px;
+    list-style: none;
+    display: flex;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+.text-menu LI {
+text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+li{
+    padding: 26px 10px 22px;
+}
+.textoNav{
+    font-size: auto;
+    font-family: monospace;
+    letter-spacing: 3px;
+}
+/* css encabezado index */
+
+/* galeria index*/
+.parrafoCont{ 
+  color: #0e0d0dd3;
+  font-size: 22px;
+  font-family: monospace;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  padding: 0px;
+  margin:0px;
+  list-style: none;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  text-align: center;
+}
+.galeriaContainer{
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  padding: 20px;
+  grid-gap: 10px;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.galeriaItem{
+  position: relative;
+}
+.galeriaItem:hover {
+  filter: opacity(0.9);
+  transform: scale(1.04);
+}
+.galeriaImg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.galeriaTitulo{
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  background: linear-gradient(rgba(255,255,255,0.1),black);
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  font-size: 22px;
+  text-align: center;
+  font-family: monospace;
+}
+.galeriaItem:nth-child(4){
+  grid-column-start: span 2;
+}
+.galeriaItem:nth-child(1){
+  grid-row-start: span 2;
+}
+.galeriaItem:nth-child(5){
+  grid-column-start: span 2;
+}
+.tituloYo{
+  color: #0e0d0dd3;
+  font-size: 22px;
+  font-family: monospace;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  padding: 0px;
+  margin:0px;
+  list-style: none;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  text-align: left;
+}
+.parrafoYo{
+  color: #0e0d0dd3;
+  font-size: 16px;
+  font-family: serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  padding: 0px;
+  margin:0px;
+  list-style: none;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+/*cierre galeria index*/
+
+  /**css footer index**/
+  .subnavigation .nav-link{
+    color: white;
+    font-weight: bold;
+  }
+  .subnavigation-container{
+    text-align: center;
+  }
+  .subnavigation-container .navbar{
+    display: inline-block;
+    margin-bottom: -6px;
+  }
+  .col-subnav a{
+    padding: 1rem 1rem;
+    color: white;
+    font-weight: bold;
+  }
+  .col-subnav .active{
+    border-top:5px solid orange;
+   background: white;
+    color: black;
+  }
+  .footer1{
+    position: absolute;
+    bottom: 50px;
+    left: 600px;
+    color: #0e0d0dd3;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding: 0px;
+    margin:0px;
+    list-style: none;
+    display: flex;
+}
+.footer2{
+  position: absolute;
+  bottom: 10px;
+  left: 1050px;
+  color: #0e0d0dd3;
+  font-size: 16px;
+  font-family: monospace;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  padding: 0px;
+  margin:0px;
+  list-style: none;
+  display: flex;
+}
+/* cierre footer index */
+/* contacto css */
+*{
+  margin: 5px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.bodyContacto{
+  background: url(../assets/img/contacto1.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.navContacto{
+  background: rgba(0,0,0,.6);
+  width: 80%;
+  max-width: 750px; 
+  margin: auto;
+  padding: 20px 35px;
+  margin-top: 0px;
+  padding-bottom: 40px;
+  border-radius: 15px;
+}
+.navContacto1{
+  position: absolute;
+  color: whitesmoke;
+    bottom: 580px;
+    left: 320px;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding: 0px;
+    margin:0px;
+    list-style: none;
+    display: flex;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.8);
+}
+.navContacto2{
+  position: absolute;
+  color: whitesmoke;
+    bottom: 580px;
+    left: 800px;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding: 0px;
+    margin:0px;
+    list-style: none;
+    display: flex;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.8);
+}
+.navContacto3{
+  position: absolute;
+  color: #ff851b;
+    bottom: 580px;
+    left: 550px;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding: 0px;
+    margin:0px;
+    list-style: none;
+    display: flex;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.8);
+}
+.contenedorContacto .form .formHeader .formTitulo{
+  font-weight: normal;
+  font-family: monospace;
+  color: #ff851b;
+  text-align: center;
+  padding: 14px 0;
+} 
+.contenedorContacto .form .formHeader .formTitulo span {
+  color: #fff;
+}
+.contenedorContacto .form {
+  background: rgba(0,0,0,.6);
+  width: 80%;
+  max-width: 520px; 
+  margin: auto;
+  padding: 5px 35px;
+  margin-top: 10px;
+  padding-bottom: 30px;
+  border-radius: 3px;
+}
+.contenedorContacto .form .formLabel {
+  display: block;
+  color: #ff851b;
+  font-size: 16px;
+  font-family: monospace;
+  position: relative;
+}
+.contenedorContacto .form .formImput, .formTextarea {
+  background: rgba(0,0,0,0.7);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ff851b;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: white;
+  font-family: monospace;
+}
+.contenedorContacto .form .formTextarea{
+  resize: vertical;
+  max-height: 150px;
+  min-height: 50px;
+}
+.contenedorContacto .form .btnSubmit{
+  width: 100%;
+  font-family: monospace;
+  outline: none;
+  background: #ff851b;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: all .5s ease ;
+}
+.contenedorContacto .form .btnSubmit:hover{
+  background: #f29718;
+}
+/* galeria css */
+.navGaleria1{
+  position: absolute;
+  color: #0e0d0dd3;
+  bottom: 580px;
+  left: 320px;
+  font-size: 16px;
+  font-family: monospace;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  padding: 0px;
+  margin:0px;
+  list-style: none;
+  display: flex;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.8);
+}
+.navGaleria{
+  padding: 40px;
+}
+.navGaleria2{
+  position: absolute;
+  color: #0e0d0dd3;
+  bottom: 580px;
+  left: 800px;
+  font-size: 16px;
+  font-family: monospace;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  padding: 0px;
+  margin:0px;
+  list-style: none;
+  display: flex;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.8);
+}
+.navGaleria3{
+  position: absolute;
+  color: #0e0d0dd3;
+  bottom: 580px;
+  left: 550px;
+  font-size: 16px;
+  font-family: monospace;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  padding: 0px;
+  margin:0px;
+  list-style: none;
+  display: flex;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.8);
+}
+/* color nav */
+.colorNav{
+  color: #0e0d0dd3;
+}
+.colorNav2{
+  color: white;
+}
+/* css para servicios */
+.imgServico{
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.parrafoServicio{
+
+}
+@media (min-width:1024px){
+  .galeriaContainer{
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: auto;
+  }
+  .galeriaItem:nth-child(4){
+    grid-column-start: span 2;
+  }
+  .galeriaItem:nth-child(1){
+    grid-row-start: span 2;
+  }
+  .galeriaItem:nth-child(5){
+    grid-column-start: span 2;
+  }
+}
