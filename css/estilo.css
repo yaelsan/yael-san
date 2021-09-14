@@ -1,5 +1,5 @@
 
-/* css encabezado index */
+/*index css*/
 .image-menu{
     position: relative;
     width: 100%; 
@@ -60,9 +60,20 @@ li{
     font-family: monospace;
     letter-spacing: 3px;
 }
-/* css encabezado index */
+.bodyIndex{
+  background: url(../assets/img/solo3.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
-/* galeria index*/
+/* galeria css*/
+.bodyGaleria{
+  background: url(../assets/img/solo3.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
 .parrafoCont{ 
   color: #0e0d0dd3;
   font-size: 22px;
@@ -93,12 +104,14 @@ li{
 }
 .galeriaItem:hover {
   filter: opacity(0.9);
-  transform: scale(1.04);
+  transform: scale(1.1);
 }
 .galeriaImg{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border: 1px solid black;
+  border-radius: 8px;
 }
 .galeriaTitulo{
   position: absolute;
@@ -106,8 +119,8 @@ li{
   color: white;
   background: linear-gradient(rgba(255,255,255,0.1),black);
   width: 100%;
-  margin: 0;
-  padding: 10px;
+  margin: 5;
+  padding: 12px;
   font-size: 22px;
   text-align: center;
   font-family: monospace;
@@ -144,49 +157,11 @@ li{
   list-style: none;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
-/*cierre galeria index*/
-
-  /**css footer index**/
-  .subnavigation .nav-link{
-    color: white;
-    font-weight: bold;
-  }
-  .subnavigation-container{
-    text-align: center;
-  }
-  .subnavigation-container .navbar{
-    display: inline-block;
-    margin-bottom: -6px;
-  }
-  .col-subnav a{
-    padding: 1rem 1rem;
-    color: white;
-    font-weight: bold;
-  }
-  .col-subnav .active{
-    border-top:5px solid orange;
-   background: white;
-    color: black;
-  }
-  .footer1{
-    position: absolute;
-    bottom: 50px;
-    left: 600px;
-    color: #0e0d0dd3;
-    font-size: 16px;
-    font-family: monospace;
-    font-weight: lighter;
-    letter-spacing: 2px;
-    padding: 0px;
-    margin:0px;
-    list-style: none;
-    display: flex;
-}
-.footer2{
+.navGaleria1{
   position: absolute;
-  bottom: 10px;
-  left: 1050px;
   color: #0e0d0dd3;
+  bottom: 580px;
+  left: 320px;
   font-size: 16px;
   font-family: monospace;
   font-weight: lighter;
@@ -195,8 +170,43 @@ li{
   margin:0px;
   list-style: none;
   display: flex;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.8);
 }
-/* cierre footer index */
+.navGaleria{
+  padding: 40px;
+}
+.navGaleria2{
+  position: absolute;
+  color: #0e0d0dd3;
+  bottom: 580px;
+  left: 800px;
+  font-size: 16px;
+  font-family: monospace;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  padding: 0px;
+  margin:0px;
+  list-style: none;
+  display: flex;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.8);
+}
+.navGaleria3{
+  position: absolute;
+  color: #0e0d0dd3;
+  bottom: 580px;
+  left: 550px;
+  font-size: 16px;
+  font-family: monospace;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  padding: 0px;
+  margin:0px;
+  list-style: none;
+  display: flex;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.8);
+}
+/* cierre galeria css */
+
 /* contacto css */
 *{
   margin: 5px;
@@ -207,7 +217,7 @@ li{
   text-decoration: none;
 }
 .bodyContacto{
-  background: url(../assets/img/contacto1.jpg);
+  background: url(../assets/img/solo3.jpg);
   -webkit-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
@@ -327,71 +337,24 @@ li{
 .contenedorContacto .form .btnSubmit:hover{
   background: #f29718;
 }
-/* galeria css */
-.navGaleria1{
-  position: absolute;
-  color: #0e0d0dd3;
-  bottom: 580px;
-  left: 320px;
-  font-size: 16px;
-  font-family: monospace;
-  font-weight: lighter;
-  letter-spacing: 2px;
-  padding: 0px;
-  margin:0px;
-  list-style: none;
-  display: flex;
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.8);
-}
-.navGaleria{
-  padding: 40px;
-}
-.navGaleria2{
-  position: absolute;
-  color: #0e0d0dd3;
-  bottom: 580px;
-  left: 800px;
-  font-size: 16px;
-  font-family: monospace;
-  font-weight: lighter;
-  letter-spacing: 2px;
-  padding: 0px;
-  margin:0px;
-  list-style: none;
-  display: flex;
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.8);
-}
-.navGaleria3{
-  position: absolute;
-  color: #0e0d0dd3;
-  bottom: 580px;
-  left: 550px;
-  font-size: 16px;
-  font-family: monospace;
-  font-weight: lighter;
-  letter-spacing: 2px;
-  padding: 0px;
-  margin:0px;
-  list-style: none;
-  display: flex;
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.8);
-}
-/* color nav */
-.colorNav{
-  color: #0e0d0dd3;
-}
-.colorNav2{
-  color: white;
-}
 /* css para servicios */
-.imgServico{
-  width: 300px;
+.imgServicios{
+  width: 410px;
   float: left;
   margin-right: 20px;
   margin-top: 15px;
 }
-.parrafoServicio{
-
+.bodyServicios{
+  background: url(../assets/img/solo3.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.fondoServicios{
+  background: rgb(238,174,202);
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,233,229,1) 100%);
+  border: 1px solid black;
+  border-radius: 8px;
 }
 @media (min-width:1024px){
   .galeriaContainer{
