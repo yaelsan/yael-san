@@ -1,42 +1,12 @@
 .bodyIndex {
   margin: 0;
   padding: 0;
-  background: black; }
+  background-image: url(../assets/img/logofondo.jpg);
+  background-attachment: fixed;
+  background-size: 100%; }
 
 .carruselIndex {
   margin: 0 20px 0 20px; }
-
-/* css nav*/
-.nav-link {
-  margin-left: 16px !important;
-  padding-top: 26px;
-  color: #bebebe !important;
-  font-family: 'Nanum Gothic Coding', monospace;
-  font-size: 20px !important; }
-
-.navIndex {
-  padding-left: 560px; }
-
-.logoNav {
-  padding-left: 14px; }
-
-.navbar {
-  margin: -5px !important; }
-
-/* css footer*/
-.footerDiv {
-  margin-right: -100px;
-  margin-left: -100px;
-  margin-top: 14px; }
-
-.parrafoFooter {
-  font-size: 18px;
-  font-family: 'Nanum Gothic Coding', monospace;
-  color: #bebebe;
-  margin-top: 12px; }
-
-.logoFooter {
-  margin-left: -20px; }
 
 .bodyServicios {
   margin: 0px;
@@ -73,7 +43,8 @@
   width: 100%;
   max-width: 1000px;
   margin: auto;
-  padding: 60px; }
+  padding: 60px;
+  background: black; }
 
 .tituloQuien {
   font-size: 40px;
@@ -117,9 +88,6 @@
   color: whitesmoke;
   font-family: 'Xanh Mono', monospace; }
 
-hr {
-  border: whitesmoke 0.1px groove; }
-
 /* galeria css*/
 .parrafoCont {
   color: #0e0d0dd3;
@@ -147,12 +115,12 @@ hr {
 
 .galeriaItem {
   position: relative;
-  border: whitesmoke solid 1px;
+  border: white solid 1px;
   border-radius: 8px; }
 
 .galeriaItem:hover {
-  filter: opacity(0.8);
-  transform: scale(0.9); }
+  filter: opacity(0.9);
+  transform: scale(1.1); }
 
 .galeriaImg {
   width: 100%;
@@ -284,6 +252,22 @@ hr {
 .contenedorContacto .form .btnSubmit:hover {
   background: #f29718; }
 
+/* css footer*/
+.footerDiv {
+  margin-right: -100px;
+  margin-left: -100px;
+  margin-top: 14px; }
+
+.parrafoFooter {
+  font-size: 18px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  color: whitesmoke;
+  font-weight: bolder;
+  margin-top: 12px; }
+
+.logoFooter {
+  margin-left: -20px; }
+
 .contenido {
   display: flex;
   perspective: 500px;
@@ -325,3 +309,24 @@ hr {
 
 .caja:hover {
   transform: rotatey(360deg); }
+
+/* hr */
+hr {
+  border: #e6e6e6 0.1px groove; }
+
+/* css nav*/
+.nav-link {
+  margin-left: 16px !important;
+  padding-top: 26px;
+  color: #cccccc !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px !important; }
+
+.navIndex {
+  padding-left: 560px; }
+
+.logoNav {
+  padding-left: 14px; }
+
+.navbar {
+  margin: -5px !important; }
