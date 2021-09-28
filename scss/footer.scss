@@ -1,52 +1,56 @@
 /* css footer*/
-.footerDiv{
+
+.footerDiv {
     margin-right: -100px;
     margin-left: -100px;
     margin-top: 14px;
 }
-.parrafoFooter{
+
+.parrafoFooter {
     font-size: 18px;
     font-family: 'Nanum Gothic Coding', monospace;
-    color: whitesmoke;
+    color: rgb(218, 185, 3);
     font-weight: bolder;
     margin-top: 12px;
 }
-.logoFooter{
+
+.logoFooter {
     margin-left: -20px;
 }
-.contenido{
+
+.contenido {
     display: flex;
     perspective: 500px;
     justify-content: end;
 }
-.caja{
+
+.caja {
     position: relative;
     margin: 10px;
     width: 35px;
     height: 35px;
     transform-style: preserve-3d;
     transition: .9s ease;
-    box-shadow: 0 10px 10px rgba(0,0,0,.7);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .7);
     border-radius: 50%;
 }
-.caja:nth-child(1){
+
+.caja:nth-child(1) {
     background: #3b5998;
     color: white;
 }
-.caja:nth-child(2){
-    background: radial-gradient(
-        circle at 33% 100%,
-        #fed373 4%,
-        #f15245 30%,
-        #d92e7f 62%,
-        #9b36b7 85%);
+
+.caja:nth-child(2) {
+    background: radial-gradient( circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%);
     color: white;
 }
-.caja:nth-child(3){
+
+.caja:nth-child(3) {
     background: #25d366;
     color: white;
 }
-.delante{
+
+.delante {
     position: absolute;
     font-size: 20px;
     display: flex;
@@ -58,6 +62,7 @@
     height: 35px;
     backface-visibility: hidden;
 }
-.caja:hover{
+
+.caja:hover {
     transform: rotatey(360deg);
 }
