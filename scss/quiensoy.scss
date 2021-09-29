@@ -1,55 +1,143 @@
-.bodyQuien{
+.bodyQuien {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
-.containerQuien{
+
+.containerQuien {
     width: 100%;
     max-width: 1000px;
     margin: auto;
     padding: 60px;
     background: black;
 }
-.tituloQuien{
+
+.tituloQuien {
     font-size: 40px;
     margin-bottom: 60px;
     color: whitesmoke;
     font-family: 'Xanh Mono', monospace;
 }
-.imgQuien{
-    width: 360px;
+
+.imgQuien {
+    width: 320px;
     float: left;
     margin-right: 20px;
     margin-bottom: 14px;
     border: .5px whitesmoke solid;
     border-radius: 8px;
 }
-.imgQuien2{
-    width: 360px;
+
+.imgQuien2 {
+    width: 320px;
     float: right;
     margin-right: 20px;
     margin-bottom: 14px;
     border: .5px whitesmoke solid;
     border-radius: 8px;
 }
-.imgQuien3{
-    width: 360px;
+
+.imgQuien3 {
+    width: 320px;
     float: left;
     margin-right: 20px;
     margin-bottom: 14px;
     border: .5px whitesmoke solid;
     border-radius: 8px;
 }
-.containerQuien p{
+
+.containerQuien p {
     font-size: 18px;
     font-weight: 300;
     color: whitesmoke;
     font-family: 'Cutive Mono', monospace;
 }
-.subtituloQuien{
+
+.subtituloQuien {
     font-size: 30px;
     font-weight: 400;
     color: whitesmoke;
     font-family: 'Xanh Mono', monospace;
+}
+
+@media only screen and(min-width:480px) {
+    .imgQuien {
+        width: 100%;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 14px;
+        border: .5px whitesmoke solid;
+        border-radius: 8px;
+    }
+    .imgQuien2 {
+        width: 100%;
+        float: right;
+        margin-right: 20px;
+        margin-bottom: 14px;
+        border: .5px whitesmoke solid;
+        border-radius: 8px;
+    }
+    .imgQuien3 {
+        width: 100%;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 14px;
+        border: .5px whitesmoke solid;
+        border-radius: 8px;
+    }
+}
+
+@media only screen and(max-width:425px) {
+    .imgQuien {
+        width: 100%;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 14px;
+        border: .5px whitesmoke solid;
+        border-radius: 8px;
+    }
+    .imgQuien2 {
+        width: 100%;
+        float: right;
+        margin-right: 20px;
+        margin-bottom: 14px;
+        border: .5px whitesmoke solid;
+        border-radius: 8px;
+    }
+    .imgQuien3 {
+        width: 100%;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 14px;
+        border: .5px whitesmoke solid;
+        border-radius: 8px;
+    }
+}
+
+@media only screen and(min-width:1024px) {
+    .imgQuien {
+        width: 320px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 14px;
+        border: .5px whitesmoke solid;
+        border-radius: 8px;
+    }
+    .imgQuien2 {
+        width: 320px;
+        float: right;
+        margin-right: 20px;
+        margin-bottom: 14px;
+        border: .5px whitesmoke solid;
+        border-radius: 8px;
+    }
+    .imgQuien3 {
+        width: 320px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 14px;
+        border: .5px whitesmoke solid;
+        border-radius: 8px;
+    }
 }
