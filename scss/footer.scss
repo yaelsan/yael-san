@@ -66,3 +66,23 @@
 .caja:hover {
     transform: rotatey(360deg);
 }
+
+//medias queries para tablet 
+@media only screen and(min-width:768px) and(max-width:940px) {
+    .caja {
+        margin: 4px;
+    }
+}
+
+@media only screen and (min-width:375px) and (max-width:767px) {
+    .contenido {
+        margin-top: -130px;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:374px) {
+    .contenido {
+        margin-top: -156px;
+        margin-right: -24px;
+    }
+}
