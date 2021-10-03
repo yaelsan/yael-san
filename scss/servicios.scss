@@ -1,25 +1,23 @@
-.bodyServicios{
-    margin: 0px;
-    padding: 0px;
-    background: black;
-}
-.mainServicios{
+.mainServicios {
     padding-left: 18px;
     padding-right: 18px;
 }
-.fondoServicios{
+
+.fondoServicios {
     background: black;
     background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(104, 104, 104) 100%);
     border: 1px solid whitesmoke;
     border-radius: 8px;
-    }
-    .textoServicios1{
-        font-size: 22px;
-        color: whitesmoke;
-        font-family: monospace;
-    }
-    .textoServicios2{
-        font-size: 16px;
-        color: whitesmoke;
-        font-family: monospace;
-    }
+}
+
+.textoServicios1 {
+    font-size: 22px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.textoServicios2 {
+    font-size: 16px;
+    color: whitesmoke;
+    font-family: monospace;
+}
