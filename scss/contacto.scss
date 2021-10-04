@@ -1,38 +1,44 @@
-*{
+* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     text-decoration: none;
 }
-.contenedorContacto .form .formHeader .formTitulo{
+
+.contenedorContacto .form .formHeader .formTitulo {
     font-weight: normal;
     font-family: monospace;
     color: whitesmoke;
     text-align: center;
     padding: 14px 0;
-    } 
-    .contenedorContacto .form .formHeader .formTitulo span {
+}
+
+.contenedorContacto .form .formHeader .formTitulo span {
     color: #fff;
-    }
-    .contenedorContacto .form {
-    background:linear-gradient(gray, black );
+}
+
+.contenedorContacto .form {
+    background: linear-gradient(gray, black);
     width: 80%;
-    max-width: 520px; 
+    max-width: 520px;
     margin: auto;
     padding: 0px 60px 0px 60px;
     margin-top: 10px;
     padding-bottom: 30px;
     border-radius: 3px;
-    }
-    .contenedorContacto .form .formLabel {
+}
+
+.contenedorContacto .form .formLabel {
     display: block;
     color: whitesmoke;
     font-size: 16px;
     font-family: monospace;
     position: relative;
-    }
-    .contenedorContacto .form .formImput, .formTextarea {
-    background: rgba(0,0,0,0.7);
+}
+
+.contenedorContacto .form .formImput,
+.formTextarea {
+    background: rgba(0, 0, 0, 0.7);
     border: none;
     outline: none;
     border-bottom: 2px solid whitesmoke;
@@ -43,24 +49,27 @@
     font-size: 14px;
     color: white;
     font-family: monospace;
-    }
-    .contenedorContacto .form .formTextarea{
+}
+
+.contenedorContacto .form .formTextarea {
     resize: vertical;
     max-height: 150px;
     min-height: 50px;
-    }
-    .contenedorContacto .form .btnSubmit{
+}
+
+.contenedorContacto .form .btnSubmit {
     width: 100%;
     font-family: monospace;
     outline: none;
-    background: #ff851b;
+    background: rgb(218, 185, 3);
     font-size: 16px;
     border: none;
     color: #fff;
     padding: 15px 0;
     cursor: pointer;
-    transition: all .5s ease ;
-    }
-    .contenedorContacto .form .btnSubmit:hover{
+    transition: all .5s ease;
+}
+
+.contenedorContacto .form .btnSubmit:hover {
     background: #f29718;
-    }
+}
